@@ -1,0 +1,513 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+  background-color: #ce0808;
+}
+@font-face {
+  font-family: myfirst;
+  src: url(./font/Russo_One/RussoOne-Regular.ttf);
+}
+.topnav {
+  overflow: hidden;
+    background-color:rgba(253, 253, 253, 0.532);
+    /* overflow: hidden; */
+    position: absolute;
+    top: 0%;
+    width: 90%;
+    
+    margin: 5%;
+    margin-right: 5%;
+    padding-right: 20%;
+    padding-left: 0;
+    box-shadow: 2px 2px 15px rgb(36, 37, 37);
+
+    
+    
+  }
+  .topnav:hover{
+    box-shadow: 2px 2px 20px rgb(207, 19, 19);
+    transition-duration: 90ms;
+    transform: scale(1.01);
+    background-color: rgb(0, 0, 0);
+    
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 28px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    padding-left: 0;
+    /* background-color: aqua; */
+  }
+  .topnav a img{
+    width: 30%;
+   padding-left: 0;
+   margin-left: 0;
+    /* background-color: #dfdfdf; */
+  }
+  .topnav a img:hover {
+    /* background-color: #a09898; */
+    color: rgb(252, 0, 0);
+    shadow:2px 2px 2px #000000;
+   transform: scale(1.3);
+    }
+
+  .topnav a:hover {
+    /* background-color: #a09898; */
+    color: rgb(252, 0, 0);
+    text-shadow:2px 2px 2px #000000;
+   transform: scale(1.3);
+    }
+  .one{
+    width: 100%;
+   padding: 0;
+
+    /* background-color: #fd0000; */
+    position: relative;
+  }
+  .one img{
+    width: 100%;
+    padding:0;
+    height: auto;
+ 
+  }
+  .three{
+
+    width: 100%;
+    height: 30vh;
+    
+    /* display: flex; */
+    background-color: #ce0808;
+    /* align-items: center; */
+ 
+    
+  }
+  .thretxt{
+    padding-top: 6%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+  }
+
+  .thretxt h4{
+    /* text-align: center; */
+    color: rgb(255, 247, 247);
+    font-family:myfirst;
+    font-size: 200%;
+    /* height:20px; */
+   
+  }
+  .thretxt h4:hover{
+    font-size: 330%;
+    text-shadow:2px 2px 2px #000000;
+    animation-name: xample;
+    animation-duration: 10s;
+  }
+  @keyframes xample {
+    0%   {color: rgb(0, 0, 0);}
+    10%  {color: rgb(255, 0, 0);}
+    20%  {color: rgb(0, 0, 0);}
+    30% {color: rgb(255, 0, 0);}
+    40%   {color: rgb(0, 0, 0);}
+    50%  {color: rgb(255, 0, 0);}
+    60%  {color: rgb(0, 0, 0);}
+    70% {color: rgb(255, 0, 0);}
+    80%  {color: rgb(0, 0, 0);}
+    90%  {color: rgb(255, 0, 0);}
+    100% {color: rgb(0, 0, 0);}
+   
+  }
+  hr{
+    color: rgb(255, 255, 255);
+    width: 20%;
+    padding: auto;
+    /* size: 10px; */
+    height: 0px;
+    font-size: 300%;
+    
+  }
+  .two{
+    width: 100%;
+    padding: 0;
+    justify-content: center;
+     background-color: #c70b0b;
+     /* position: relative; */
+    align-items: center;
+    display: flex;
+    position: relative;
+    
+  }
+  .two img{
+    width: 100%;
+    padding:0;
+    height: auto;
+    justify-content: center;
+  
+ 
+  }
+  .twotext {
+ 
+    /* position: absolute; */
+    color: rgba(255, 255, 255, 0.849);
+    /* top: 20%; */
+  
+    font-family: myfirst;
+    position: absolute;
+  }
+  .twotext h2{
+    font-size: 50px;
+    text-align: center;
+  
+
+  }
+  .twotext h2:hover{
+    font-size: 53px;
+    text-shadow: 1px 1px 9px black;
+    transition-duration: 90ms;
+    
+  
+  
+
+  }
+  .four{
+    display: flex;
+   background-color: #f00c0c;
+   
+    padding: 2%;
+
+  }
+
+  .card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0px 8px 10px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 20%;
+    margin: 1%;
+    border-radius: 9px;
+    
+  }
+  .card img{
+    width: auto;
+    /* padding: 2%; */
+    border-radius:9px ;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(125, 124, 124, 0.2);
+    transform: scale(1.1);
+  
+    /* width: 22%; */
+  }
+  
+  /* Add some padding inside the card container */
+  .name {
+    padding: 2px 16px;
+  }
+  .five{
+    background-color: #dfdfdf;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 4%;
+    padding-bottom: 4%;
+  }
+  .frow{
+    /* background-color: #d70000; */
+    /* padding-top: 10%; */
+    /* padding: 0; */
+    box-shadow: 0 8px 16px 0 rgba(125, 124, 124, 0.2);
+
+
+  }
+  .frow:hover{
+    box-shadow: 0px 0px 20px 0 rgba(36, 35, 35, 0.2);
+  }
+  .frow h3{
+    font-family: myfirst;
+  }
+  .cimg{
+    padding: 0;
+    
+  }
+.cimg img{
+  width: 100%;
+  height: auto;
+}
+.cmg{
+  padding: 0;
+  
+
+}
+.ctx{
+  background-color: #f8f2f2;
+  text-align: center;
+}
+.cmg img{
+width: 100%;
+height: auto;
+}
+
+.six{
+  /* background-color: #40b34d; */
+  width: 100%;
+  display: flex;
+  padding: 5%;
+  position: relative;
+  text-align: left;
+ 
+}
+.sixt{
+  /* background-color: #dfdfdf; */
+  margin-left: 5%;
+  color: white;
+}
+.sixt h3{
+  font-size: 15px;
+}
+.sixt h2{
+  font-size: 13px;
+  font-weight: bold;
+}
+.seven{
+  background-image: linear-gradient(black,red);
+  padding: 0;
+  text-align: center;
+  font-family: myfirst;
+  color: rgb(224, 221, 221);
+
+}
+
+.seven h1{
+  padding-top: 3%;
+
+}
+.sixi{
+  /* background-color: black; */
+ position: absolute;
+ right: 5%;
+ bottom: 20%;
+}
+.log{
+  justify-content: center;
+  display: flex;
+}
+
+ .ima{
+  width: 40px;
+ }
+
+ .eight{
+  background-color: rgb(179, 0, 0);
+  display: flex;
+  justify-content: center;
+  padding: 0;
+
+ }
+ 
+.eighta{
+  /* background-color: #00ff40; */
+  width: 40%;
+  height: auto;
+  /* padding: 0; */
+  position: relative;
+  padding: 0;
+
+}
+.image {
+  /* display: block; */
+  width: 100%;
+  height: auto;
+  /* padding: 0; */
+}
+.text{
+   
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* -webkit-transform: translate(-50%, -50%); */
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    /* text-align: ; */
+  
+}
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #ba000065;
+  overflow: hidden; 
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+.eighta:hover .overlay {
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+}
+.nine{
+  /* width: 0%; */
+  height: auto;
+  background-color: #000000;
+  /* margin-top: 2%; */
+  padding: 4% 3%;
+  
+
+}
+.nineimg img{
+  width: 80%;
+  height: auto;
+  margin: auto;
+  display: block;
+  opacity: 60%;
+  
+}
+.nineimg{
+  position: relative;
+}
+.headi{
+  display: flex;
+}
+.nine form{
+  /* border: #c70b0b; */
+  border-radius: 6%;
+  border-width: 5px;
+  border-color: #ffffff;
+  border-style: double;
+  font-family: myfirst;
+  /* background-color: #f8f2f2; */
+  
+  color: #ffffff;
+  width: auto;
+  height: auto;
+  margin: auto;
+  /* display: block; */
+  position: absolute;
+  padding: 2% 3%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+ 
+}
+.nine form h1:hover{
+  font-size:330% ;
+  animation-name: example;
+  animation-duration: 5s;
+} 
+.nine form:hover{
+box-shadow: #dfdfdf;
+animation-name: exampl;
+animation-duration: 10s;
+
+
+}
+.nine input{
+  width: 70%;
+  margin: 3% 3%;
+  background-color: #f8f2f25f;
+  color: #ffffff;
+  box-shadow: 0px 0px 6px rgb(0, 0, 0);
+
+
+
+}
+.fone{
+  display: flex;
+}
+.bone{
+  background-color: #ce0808;
+  padding: 1% 3%;
+  color: white;
+  border-radius: 25px;
+}
+::placeholder {
+  color: rgb(255, 255, 255);
+  opacity: 1; /* Firefox */
+}
+.bone:hover{
+  background-color: #f3f3f3;
+  color: rgb(255, 0, 0);
+}
+.ten{
+  padding: 4% 4%;
+ 
+}
+.tenoo{
+  display: flex;
+  justify-content: center;
+  /* background-color: #dfdfdf; */
+}
+.teno{
+  box-shadow: 5px 5px 9px black;
+  width: 30%;
+  border-style: solid;
+  border-width: 5px;
+  color: white;
+  margin: 2% 2%;
+  border-top-left-radius:20px ;
+  border-bottom-right-radius:20px ;
+  
+ 
+}
+.teno:hover{
+  box-shadow: 0px 0px 15px black;
+  /* box-shadow: 5px 5px 9px black; */
+  animation-name: example;
+  animation-duration: 10s;
+  background-color: #000000;
+  width: 35%;
+  transform: rotate(10deg);
+
+}
+.teno h1{
+  font-size: 200%;
+
+}
+@keyframes example {
+  0%   {color: rgb(0, 0, 0);}
+  10%  {color: rgb(255, 0, 0);}
+  20%  {color: rgb(255, 106, 0);}
+  30% {color: rgb(255, 225, 0);}
+  40%   {color: rgb(255, 255, 0);}
+  50%  {color: rgb(68, 255, 0);}
+  60%  {color: rgb(0, 255, 47);}
+  70% {color: rgb(0, 229, 255);}
+  80%  {color: rgb(0, 0, 255);}
+  90%  {color: rgb(255, 0, 221);}
+  100% {color: rgb(255, 0, 0);}
+ 
+}
+@keyframes exampl {
+  0%   {border-color: rgb(0, 0, 0);}
+  10%  {border-color: rgb(255, 0, 0);}
+  20%  {border-color: rgb(255, 106, 0);}
+  30% {border-color: rgb(255, 225, 0);}
+  40%   {border-color: rgb(255, 255, 0);}
+  50%  {border-color: rgb(68, 255, 0);}
+  60%  {border-color: rgb(0, 255, 47);}
+  70% {border-color: rgb(0, 229, 255);}
+  80%  {border-color: rgb(0, 0, 255);}
+  90%  {border-color: rgb(255, 0, 221);}
+  100% {border-color: rgb(255, 0, 0);}
+ 
+}
+
+
+
+
+  
