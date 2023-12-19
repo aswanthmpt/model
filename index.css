@@ -70,11 +70,14 @@ body{
   .one{
     width: 100%;
    padding: 0;
+   height: auto;
 
     /* background-color: #fd0000; */
     position: relative;
   }
   .one img{
+    /* position: absolute;
+    top: 0; */
     width: 100%;
     padding:0;
     height: auto;
@@ -91,6 +94,31 @@ body{
  
     
   }
+  .png{
+    width: 100%;
+    
+    /* background-color: #dfdfdf; */
+   
+  }
+  .png img{
+    animation: mymove 9s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+  }
+  .png img{
+    width: 10%;
+    position: relative;
+    /* background-color: #dfdfdf; */
+   
+
+  }
+  @keyframes mymove {
+    from {left: 0px;}
+    to {left: 90%;}
+  }
+ 
   .thretxt{
     padding-top: 6%;
     display: flex;
@@ -506,8 +534,5 @@ animation-duration: 10s;
   100% {border-color: rgb(255, 0, 0);}
  
 }
-
-
-
 
   
